@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3BECF766192484DF00C72661 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF765192484DF00C72661 /* main.c */; };
 		3BECF77019248A3D00C72661 /* mint.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF76F19248A3D00C72661 /* mint.c */; };
+		3BECF7731924B9A500C72661 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF7721924B9A500C72661 /* server.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		3BECF765192484DF00C72661 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3BECF76E1924850500C72661 /* mint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mint.h; sourceTree = "<group>"; };
 		3BECF76F19248A3D00C72661 /* mint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mint.c; sourceTree = "<group>"; };
+		3BECF7711924B99A00C72661 /* server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		3BECF7721924B9A500C72661 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				3BECF765192484DF00C72661 /* main.c */,
 				3BECF76E1924850500C72661 /* mint.h */,
 				3BECF76F19248A3D00C72661 /* mint.c */,
+				3BECF7711924B99A00C72661 /* server.h */,
+				3BECF7721924B9A500C72661 /* server.c */,
 			);
 			path = mint;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BECF766192484DF00C72661 /* main.c in Sources */,
+				3BECF7731924B9A500C72661 /* server.c in Sources */,
 				3BECF77019248A3D00C72661 /* mint.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
