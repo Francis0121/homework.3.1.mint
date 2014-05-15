@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <assert.h>
 
 
 #define TRUE 1
@@ -22,3 +23,5 @@ typedef struct {
     char userId[100];
     int isHost;
 } ClientInfo;
+
+char** str_split(char* a_str,  char* a_delim);

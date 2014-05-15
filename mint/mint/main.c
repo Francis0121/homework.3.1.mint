@@ -7,12 +7,24 @@
 //
 
 #include <stdio.h>
+#include "mint.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    char** test = str_split("ABC\nDEF\nGHI", "\n");
+    
+    printf("%s\n",test[0]);
+    if(strcmp("ABC", test[0]) == 0)
+    {
+        printf("맞음");
+    }
+    
 }
+
+    
+    
+    
+    
+    
+
 
