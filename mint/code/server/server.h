@@ -1,4 +1,4 @@
-#include "mint.h"
+#include "../mint.h"
 
 void tokenize(char* buf,int idx);
 void request(char* command,char *body,int idx);

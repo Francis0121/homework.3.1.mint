@@ -11,14 +11,16 @@
 
 char** str_split(char* a_str,  char* a_delim)
 {
+    if(a_str == NULL)
+        return NULL;
     unsigned long size = strlen(a_str);
     int index=0;
     
     char **result;
     char *poi, *copy;
    
-    copy = (char *) malloc(sizeof(char)*size);
-    result = (char **) malloc(10*sizeof(char *));
+    copy = (char *) malloc(30*sizeof(char)*size);
+    result = (char **) malloc(100*sizeof(char *));
     
     strcpy(copy,a_str);
     poi = strtok(copy, a_delim);
